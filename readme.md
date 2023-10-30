@@ -16,9 +16,9 @@ This repository contains the answers to the following assignments:
 
     - `s` - text of the message
 
-Each message gets its own row in the database. Write an SQL query to retrieve date and text of the last message for all users.
+Each message gets its own row in the database. `Write an SQL query to retrieve date and text of the last message for all users.`
 
-`Exerice 3:`
+`Exercise 3:`
 
 - A business has two types of users: staff and clients. Staff members can perform actions to help run the business while clients interact with the business by buying products and services. The two types of users aren't completely different however, they both have logins and profiles. Describe in words (no source code) what classes you'd create to model users for this business and any relationships between classes (no need for properties or methods).
 
@@ -44,4 +44,5 @@ A couple of test cases (including the one provided in the assignment) were used 
 ```text
 ./vendor/bin/phpunit tests
 ```
+
 ![exercise-1.png](files%2Fexercise-1.png)
