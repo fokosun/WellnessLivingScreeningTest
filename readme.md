@@ -4,12 +4,23 @@ This repository contains the answers to the following assignments:
 
 `Exercise 1:` 
 
-- Find the first element in alphabetical order for an array of strings using a loop
+- Find the first element in alphabetical order for an array of strings using a loop. For example, for this array: `$a=['my','name','is','john','doe'];` the result should be 'doe'. Please write your answer in PHP 8.2
 
 `Exercise 2:` 
 
-- Write an SQL query to retrieve date and text of the last message for all users.
+- There is a `t` table with 3 fields:
+  
+    - `uid` - user ID
 
+    - `dt` - date and time of message
+
+    - `s` - text of the message
+
+Each message gets its own row in the database. `Write an SQL query to retrieve date and text of the last message for all users.`
+
+`Exercise 3:`
+
+- A business has two types of users: staff and clients. Staff members can perform actions to help run the business while clients interact with the business by buying products and services. The two types of users aren't completely different however, they both have logins and profiles. Describe in words (no source code) what classes you'd create to model users for this business and any relationships between classes (no need for properties or methods).
 
 ## Exercise 1
 The solution to this assignment can be found in:
@@ -33,4 +44,5 @@ A couple of test cases (including the one provided in the assignment) were used 
 ```text
 ./vendor/bin/phpunit tests
 ```
+
 ![exercise-1.png](files%2Fexercise-1.png)
