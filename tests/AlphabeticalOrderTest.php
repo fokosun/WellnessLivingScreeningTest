@@ -1,7 +1,5 @@
 <?php
 
-namespace tests;
-
 use App\AlphabeticalOrder;
 use PHPUnit\Framework\TestCase;
 
